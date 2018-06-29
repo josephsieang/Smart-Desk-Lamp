@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Fri Jun 29 11:20:42 2018
+# Process ID: 39040
+# Current directory: D:/hardware lab/final project/Final/HD_Final
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21860 D:\hardware lab\final project\Final\HD_Final\HD_Final.xpr
+# Log file: D:/hardware lab/final project/Final/HD_Final/vivado.log
+# Journal file: D:/hardware lab/final project/Final/HD_Final\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/hardware lab/final project/Final/HD_Final/HD_Final.xpr}
+update_compile_order -fileset sources_1

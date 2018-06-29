@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1515587127">
+  <File Type="PWROPT-DCP" Name="ledcontrol_pwropt.dcp"/>
+  <File Type="ROUTE-PWR" Name="ledcontrol_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="ledcontrol.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="ledcontrol_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="ledcontrol_reports.tcl"/>
+  <File Type="BG-DRC" Name="ledcontrol.drc"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="ledcontrol_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="ledcontrol_timing_summary_init.rpt"/>
+  <File Type="OPT-HWDEF" Name="ledcontrol.hwdef"/>
+  <File Type="OPT-DCP" Name="ledcontrol_opt.dcp"/>
+  <File Type="OPT-DRC" Name="ledcontrol_drc_opted.rpt"/>
+  <File Type="OPT-TIMING" Name="ledcontrol_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DRC" Name="ledcontrol_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="ledcontrol_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="ledcontrol_placed.dcp"/>
+  <File Type="PLACE-IO" Name="ledcontrol_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="ledcontrol_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="ledcontrol_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="ledcontrol_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="ledcontrol_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="ledcontrol_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="ledcontrol_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="ledcontrol_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="ledcontrol_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="ledcontrol_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="ledcontrol_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="ledcontrol_drc_physopted.rpt"/>
+  <File Type="BG-BIT" Name="ledcontrol.bit"/>
+  <File Type="PHYSOPT-TIMING" Name="ledcontrol_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="ledcontrol_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="ledcontrol_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="ledcontrol_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="ledcontrol_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="ledcontrol_drc_routed.pb"/>
+  <File Type="BITSTR-MSK" Name="ledcontrol.msk"/>
+  <File Type="ROUTE-DRC-RPX" Name="ledcontrol_drc_routed.rpx"/>
+  <File Type="BG-BGN" Name="ledcontrol.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="ledcontrol_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-RBT" Name="ledcontrol.rbt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="ledcontrol_methodology_drc_routed.rpx"/>
+  <File Type="BG-BIN" Name="ledcontrol.bin"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="ledcontrol_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="ledcontrol_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="ledcontrol_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="ledcontrol_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="ledcontrol_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="ledcontrol_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="ledcontrol_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="ledcontrol_incremental_reuse_routed.rpt"/>
+  <File Type="RDI-RDI" Name="ledcontrol.vdi"/>
+  <File Type="ROUTE-CLK" Name="ledcontrol_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="ledcontrol_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="ledcontrol_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="ledcontrol_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="ledcontrol_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="ledcontrol_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="ledcontrol.nky"/>
+  <File Type="BITSTR-BMM" Name="ledcontrol_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="ledcontrol.mmi"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="ledcontrol.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="ledcontrol.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/alarm.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/music1.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/music2.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/timer.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/PWM.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/KeyboardCtrl_1/KeyboardCtrl_1.xci">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="ledcontrol"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/final.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="KeyboardCtrl_0"/>
+</GenRun>

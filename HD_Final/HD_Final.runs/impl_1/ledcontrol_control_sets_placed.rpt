@@ -1,0 +1,88 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Wed Jan 10 20:27:38 2018
+| Host         : DESKTOP-7D4PR7J running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file ledcontrol_control_sets_placed.rpt
+| Design       : ledcontrol
+| Device       : xc7a35t
+---------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    21 |
+| Unused register locations in slices containing registers |    60 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             245 |           88 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              67 |           19 |
+| Yes          | No                    | No                     |             580 |          171 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++-------------------------------+------------------------------------------------------+-------------------------------------+------------------+----------------+
+|          Clock Signal         |                     Enable Signal                    |           Set/Reset Signal          | Slice Load Count | Bel Load Count |
++-------------------------------+------------------------------------------------------+-------------------------------------+------------------+----------------+
+|  alarm1/btSpeedGen/CLK        |                                                      |                                     |                1 |              1 |
+|  t1/state_next_reg[1]_i_2_n_0 |                                                      |                                     |                1 |              2 |
+|  alarm1/clock_divider_16/CLK  |                                                      |                                     |                1 |              4 |
+|  clock_divide_16/O24          |                                                      |                                     |                1 |              4 |
+|  t1/clk_1sec_produce/clk_     | t1/lp0/BCD0_reg[0]                                   |                                     |                2 |              4 |
+|  t1/clk_1sec_produce/clk_     | t1/lp1/BCD2_reg[0]_0                                 |                                     |                2 |              4 |
+|  t1/clk_1sec_produce/clk_     | t1/lp1/BCD3_reg[0]                                   |                                     |                2 |              4 |
+|  clk_IBUF_BUFG                | t1/key_de/inst/inst/Ps2Interface_i/bits_count        |                                     |                1 |              4 |
+|  t1/clk_1sec_produce/clk_     |                                                      |                                     |                3 |              5 |
+|  alarm1/btSpeedGen/CLK        |                                                      | alarm1/stop_onepulse/SR[0]          |                3 |              8 |
+|  t1/c0/CLK                    |                                                      |                                     |                4 |              8 |
+|  clk_IBUF_BUFG                | t1/key_de/inst/inst/Ps2Interface_i/rx_finish         |                                     |                3 |              8 |
+|  clk_IBUF_BUFG                | t1/key_de/inst/inst/Ps2Interface_i/rx_valid          |                                     |                3 |              8 |
+|  clk_IBUF_BUFG                | t1/key_de/nums                                       |                                     |                5 |              8 |
+|  clk_IBUF_BUFG                | t1/key_de/inst/inst/Ps2Interface_i/frame[10]_i_1_n_0 |                                     |                4 |             11 |
+|  clk_IBUF_BUFG                |                                                      | t1/lp0/counter[15]_i_1_n_0          |                4 |             15 |
+|  clk_IBUF_BUFG                |                                                      | t1/lp1/counter[15]_i_1_n_0          |                4 |             15 |
+|  clk_IBUF_BUFG                | t1/key_de/key[9]_i_1_n_0                             |                                     |                5 |             17 |
+|  clk_IBUF_BUFG                |                                                      | t1/clk_1sec_produce/num[28]_i_1_n_0 |                8 |             29 |
+|  clk_IBUF_BUFG                |                                                      |                                     |               77 |            221 |
+|  clk_IBUF_BUFG                | t1/key_de/op/pulse_been_ready                        |                                     |              144 |            512 |
++-------------------------------+------------------------------------------------------+-------------------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 1      |                     1 |
+| 2      |                     1 |
+| 4      |                     6 |
+| 5      |                     1 |
+| 8      |                     5 |
+| 11     |                     1 |
+| 15     |                     2 |
+| 16+    |                     4 |
++--------+-----------------------+
+
+
